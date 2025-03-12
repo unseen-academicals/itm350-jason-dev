@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v4
  
       - name: Install dependencies
-        working-directory: node-bulletin-board/bulletin-board-app
+        working-directory: /bulletin-board-app
         run: npm install
  
       - name: Log in to Docker Hub
